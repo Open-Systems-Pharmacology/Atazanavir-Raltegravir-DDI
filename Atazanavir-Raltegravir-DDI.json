@@ -1,0 +1,6442 @@
+{
+  "Version": 76,
+  "Individuals": [
+    {
+      "Name": "Neely2010",
+      "Seed": 269404226,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 28.6,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 68.2,
+          "Unit": "kg"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          }
+        },
+        {
+          "Name": "UGT1A1",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.0013585313175
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0788336933
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00027429805616
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.016349892
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0349892009
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A1"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.328,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A9",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00016153846154
+            },
+            {
+              "Name": "Kidney",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0982905983
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0982905983
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0017264957265
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0079487179487
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A1"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 10.36,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "HispanicMale",
+      "Seed": 284084871,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "MexicanAmericanWhite_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 35.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 75.3,
+          "Unit": "kg"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          }
+        },
+        {
+          "Name": "UGT1A1",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.0013585313175
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0788336933
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00027429805616
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.016349892
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0349892009
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A1"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.328,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A9",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00016153846154
+            },
+            {
+              "Name": "Kidney",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0982905983
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0982905983
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0017264957265
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0079487179487
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A1"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 10.36,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Krishna2016",
+      "Seed": 623931489,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 39.1,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 73.5,
+          "Unit": "kg"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          }
+        },
+        {
+          "Name": "UGT1A1",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.0013585313175
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0788336933
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00027429805616
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.016349892
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0349892009
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A1"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.328,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A9",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00016153846154
+            },
+            {
+              "Name": "Kidney",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0982905983
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0982905983
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0017264957265
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0079487179487
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A1"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 10.36,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Zhu2010",
+      "Seed": 20599214,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 32.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 77.3,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 170.4704,
+          "Unit": "cm"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          }
+        },
+        {
+          "Name": "UGT1A1",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.0013585313175
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0788336933
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00027429805616
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.016349892
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.3239740821
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0349892009
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0349892009
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A1"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.328,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A9",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00016153846154
+            },
+            {
+              "Name": "Kidney",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0982905983
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0982905983
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0017264957265
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0041282051282
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0079487179487
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0079487179487
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A1"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 10.36,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Raltegravir",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "PI",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 0.58,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification - all data 600x CL lip 0 log MC 3 final repeat 4' on 2019-04-14 19:35"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Literature",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 0.58,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Moss 2012"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.17,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Laufer 2009"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Moss 2012",
+          "Parameters": [
+            {
+              "Name": "Solubility table",
+              "Value": 40.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Moss 2013"
+              },
+              "TableFormula": {
+                "Name": "Solubility",
+                "XName": "pH",
+                "XDimension": "Dimensionless",
+                "YName": "Solubility",
+                "YDimension": "Concentration (mass)",
+                "YUnit": "mg/l",
+                "UseDerivedValues": false,
+                "Points": [
+                  {
+                    "X": 1.0,
+                    "Y": 40.000000000000007,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 2.5,
+                    "Y": 40.000000000000007,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 3.0,
+                    "Y": 40.000000000000007,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 4.0,
+                    "Y": 40.000000000000007,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 4.4,
+                    "Y": 70.0,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 4.5,
+                    "Y": 80.000000000000014,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 5.0,
+                    "Y": 120.00000000000001,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 5.5,
+                    "Y": 330.0,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 6.0,
+                    "Y": 980.0,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 6.2,
+                    "Y": 1600.0000000000002,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 6.4,
+                    "Y": 2400.0,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 6.5,
+                    "Y": 2900.0,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 6.8,
+                    "Y": 5800.0,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 7.0,
+                    "Y": 8900.0,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 7.4,
+                    "Y": 20300.0,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 7.6,
+                    "Y": 30000.0,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 8.0,
+                    "Y": 37300.0,
+                    "RestartSolver": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Fit",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 7861.288,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Moss 2013",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2.7366666667E-07,
+              "Unit": "cm/s",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification - all data 600x CL lip 0 log MC 3 final repeat 4' on 2019-04-14 19:35"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 6.67,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "InVitro",
+            "Description": "Moss 2012"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "PI",
+          "Molecule": "UGT1A1",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 3.382,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification - all data 600x CL lip 0 log MC 3' on 2019-01-22 09:19"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 99.0,
+              "Unit": "mM"
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "PI",
+          "Molecule": "UGT1A9",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.53,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification - all data 600x CL lip 0 log MC 3' on 2019-01-22 09:19"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 296.0,
+              "Unit": "µM"
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Kassahun 2007",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Kassahun 2007",
+          "Molecule": "UGT1A1",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 3.382,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification - all data 600x CL lip 0 log MC 3 final repeat 4' on 2019-04-14 19:35"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 99.0,
+              "Unit": "µM",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Kassahun 2007"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Kassahun 2007",
+          "Molecule": "UGT1A9",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 2.014,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification - all data 600x CL lip 0 log MC 3 final repeat 4' on 2019-04-14 19:35"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 296.0,
+              "Unit": "µM",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Kassahun 2007"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "F",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Other",
+            "Description": "Drugbank.ca"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 444.4163,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Other",
+            "Description": "Drugbank.ca"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Atazanavir",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.12,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Hyland 2008, PMID: 18647303"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.14,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Rajoli 2015, PMID: 25523214"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Assumption",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 50000.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumption"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumption"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 9.8649602504E-06,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'SingleDose' on 2019-07-29 17:45"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 4.7,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Unknown",
+            "Description": "Berlin 2015, PMID: 25872159"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_FirstOrder",
+          "DataSource": "Optimized",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.0,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "CLspec/[Enzyme]",
+              "Value": 1.0383524966,
+              "Unit": "l/µmol/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'SingleDose' on 2019-07-29 17:45"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Clinical Pharmacology Review",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 2.014495446,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Single+MultipleDose_withMBI' on 2019-07-30 10:12"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "Perloff2005",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 0.0033009852632,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Single+MultipleDose_withMBI' on 2019-07-30 10:12"
+              }
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 0.1292581489,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Single+MultipleDose_withMBI' on 2019-07-30 10:12"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MixedInhibition",
+          "DataSource": "InternalData",
+          "Molecule": "UGT1A1",
+          "Parameters": [
+            {
+              "Name": "Ki_c",
+              "Value": 0.17,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Ki_u",
+              "Value": 0.17,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 704.8555,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Unknown",
+            "Description": "drugbank.ca"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Reyataz capsule",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 78.8787658271,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'SingleDose' on 2019-07-29 17:45"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 1.5566465018,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'SingleDose' on 2019-07-29 17:45"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Other",
+            "Method": "Other"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 500.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.0390320082,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "400mg_BID_8days",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 400.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 15.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Raltegravir_400mg_QD_8days",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 400.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 8.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Raltegravir_100mg_at144h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 100.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Raltegravir_100mg",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 100.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Raltegravir_1200mg",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1200.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Raltegravir_1200mg_at144h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 1200.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Raltegravir_400mg_BID_5days",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 400.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 9.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Raltegravir_400mg_BID_14days_at288h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 400.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 288.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 28.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "300mg_BID_14days_at288h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 300.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 288.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 28.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "400mg_QD_9days",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 400.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 9.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "400mg_QD_8days",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 400.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 8.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Events": [
+    {
+      "Name": "High-fat breakfast",
+      "Template": "Meal: High-fat breakfast (Human)"
+    },
+    {
+      "Name": "Light meal",
+      "Template": "Meal: Standard (Human)",
+      "Parameters": [
+        {
+          "Name": "Meal energy content",
+          "Value": 373.0,
+          "Unit": "kcal",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Neely2010_Raltegravir",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 1.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 168.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 168.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 172.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 172.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 180.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 1.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 16.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Neely2010",
+      "Compounds": [
+        {
+          "Name": "Raltegravir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Moss 2012",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Literature",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Moss 2013",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A1-Kassahun 2007",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "UGT1A9-Kassahun 2007",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "Glomerular Filtration-Kassahun 2007"
+            }
+          ],
+          "Protocol": {
+            "Name": "400mg_BID_8days",
+            "Formulations": [
+              {
+                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 164.8865,
+              "Max": 185.2919,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.08049287,
+              "Max": 17.06803,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)-Raltegravir-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|Time",
+              "Y": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Neely2010_Raltegravir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Neely2010_Raltegravir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Atazanavir_DDI\nNeely2010_Raltegravir\n2019-08-01 18:12"
+        }
+      ]
+    },
+    {
+      "Name": "Neely2010_Raltegravir+Atazanavir",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 1.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 168.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 168.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 172.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 172.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 192.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 1.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 16.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|400mg_QD_8days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_8days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_8days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_8days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_8days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_8days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_8days|Reyataz capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_8days|Reyataz capsule|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Neely2010",
+      "Compounds": [
+        {
+          "Name": "Raltegravir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Moss 2012",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Literature",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Moss 2013",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A1-Kassahun 2007",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "UGT1A9-Kassahun 2007",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "Glomerular Filtration-Kassahun 2007"
+            }
+          ],
+          "Protocol": {
+            "Name": "Raltegravir_400mg_QD_8days",
+            "Formulations": [
+              {
+                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Atazanavir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
+            }
+          ],
+          "Protocol": {
+            "Name": "400mg_QD_8days",
+            "Formulations": [
+              {
+                "Name": "Reyataz capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 162.2529,
+              "Max": 199.5167,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01880481,
+              "Max": 16.62121,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Neely2010_Raltegravir+Atazanavir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Neely2010_Raltegravir+Atazanavir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)-Raltegravir-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|Time",
+              "Y": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Atazanavir_DDI\nNeely2010_Raltegravir+Atazanavir\n2019-08-01 18:13"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Perloff2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-InternalData",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
+        }
+      ]
+    },
+    {
+      "Name": "Iwamoto2008_Raltegravir",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Raltegravir_100mg|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "HispanicMale",
+      "Compounds": [
+        {
+          "Name": "Raltegravir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Moss 2012",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Literature",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Moss 2013",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A1-Kassahun 2007",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "UGT1A9-Kassahun 2007",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "Glomerular Filtration-Kassahun 2007"
+            }
+          ],
+          "Protocol": {
+            "Name": "Raltegravir_100mg",
+            "Formulations": [
+              {
+                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Iwamoto2008_Raltegravir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Iwamoto2008_Raltegravir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Atazanavir_final\nIwamoto2008_Raltegravir\n2019-07-30 10:16"
+        }
+      ]
+    },
+    {
+      "Name": "Iwamoto2008_Raltegravir+Atazanavir",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 12.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 148.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 148.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 176.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_100mg_at144h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "HispanicMale",
+      "Compounds": [
+        {
+          "Name": "Raltegravir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Moss 2012",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Literature",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Moss 2013",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A1-Kassahun 2007",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "UGT1A9-Kassahun 2007",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "Glomerular Filtration-Kassahun 2007"
+            }
+          ],
+          "Protocol": {
+            "Name": "Raltegravir_100mg_at144h",
+            "Formulations": [
+              {
+                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Atazanavir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
+            }
+          ],
+          "Protocol": {
+            "Name": "400mg_QD_9days",
+            "Formulations": [
+              {
+                "Name": "Reyataz capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 24.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 48.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 72.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 96.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 144.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 168.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 192.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Iwamoto2008_Raltegravir+Atazanavir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Iwamoto2008_Raltegravir+Atazanavir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Atazanavir_final_DDI\nIwamoto2008_Raltegravir+Atazanavir\n2019-08-01 17:31"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Perloff2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-InternalData",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
+        }
+      ]
+    },
+    {
+      "Name": "Krishna2016_Raltegravir",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 72.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Raltegravir_1200mg|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Krishna2016",
+      "Compounds": [
+        {
+          "Name": "Raltegravir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Moss 2012",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Literature",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Moss 2013",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A1-Kassahun 2007",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "UGT1A9-Kassahun 2007",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "Glomerular Filtration-Kassahun 2007"
+            }
+          ],
+          "Protocol": {
+            "Name": "Raltegravir_1200mg",
+            "Formulations": [
+              {
+                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Krishna2016_Raltegravir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Krishna2016_Raltegravir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Atazanavir_final\nKrishna2016_Raltegravir\n2019-07-29 13:54"
+        }
+      ]
+    },
+    {
+      "Name": "Krishna2016_Raltegravir+Atazanavir",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 148.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 148.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 216.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_9days|Reyataz capsule|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_1200mg_at144h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Krishna2016",
+      "Compounds": [
+        {
+          "Name": "Raltegravir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Moss 2012",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Literature",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Moss 2013",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A1-Kassahun 2007",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "UGT1A9-Kassahun 2007",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "Glomerular Filtration-Kassahun 2007"
+            }
+          ],
+          "Protocol": {
+            "Name": "Raltegravir_1200mg_at144h",
+            "Formulations": [
+              {
+                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Atazanavir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
+            }
+          ],
+          "Protocol": {
+            "Name": "400mg_QD_9days",
+            "Formulations": [
+              {
+                "Name": "Reyataz capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 23.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 47.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 71.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 95.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 119.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 143.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 167.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 191.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Krishna2016_Raltegravir+Atazanavir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Krishna2016_Raltegravir+Atazanavir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Atazanavir_DDI\nKrishna2016_Raltegravir+Atazanavir\n2019-08-01 17:58"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Perloff2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-InternalData",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
+        }
+      ]
+    },
+    {
+      "Name": "Zhu2010_Raltegravir",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 96.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 96.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 100.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 100.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 108.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Zhu2010",
+      "Compounds": [
+        {
+          "Name": "Raltegravir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Moss 2012",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Literature",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Moss 2013",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A1-Kassahun 2007",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "UGT1A9-Kassahun 2007",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "Glomerular Filtration-Kassahun 2007"
+            }
+          ],
+          "Protocol": {
+            "Name": "Raltegravir_400mg_BID_5days",
+            "Formulations": [
+              {
+                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 12.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 24.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 36.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 48.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 60.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 72.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 84.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 96.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 93.8857,
+              "Max": 111.6593,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 26.71263,
+              "Max": 16114.44,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Zhu2010_Raltegravir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zhu2010_Raltegravir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)|Time",
+              "Y": "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Atazanavir_DDI\nZhu2010_Raltegravir\n2019-08-01 18:07"
+        }
+      ]
+    },
+    {
+      "Name": "Zhu2010_Atazanavir+Raltegravir",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 276.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 600.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 600.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 604.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 604.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 612.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Zhu2010",
+      "Compounds": [
+        {
+          "Name": "Atazanavir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
+            }
+          ],
+          "Protocol": {
+            "Name": "300mg_BID_14days_at288h",
+            "Formulations": [
+              {
+                "Name": "Reyataz capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Raltegravir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Moss 2012",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Literature",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Moss 2013",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A1-Kassahun 2007",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "UGT1A9-Kassahun 2007",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "Glomerular Filtration-Kassahun 2007"
+            }
+          ],
+          "Protocol": {
+            "Name": "Raltegravir_400mg_BID_14days_at288h",
+            "Formulations": [
+              {
+                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 276.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 288.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 300.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 312.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 324.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 336.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 348.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 360.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 372.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 384.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 396.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 408.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 420.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 432.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 444.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 456.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 468.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 480.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 492.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 504.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 516.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 528.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 540.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 552.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 564.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 576.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 588.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 600.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 594.8665,
+              "Max": 621.0748,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 2.011306E-05,
+              "Max": 10.43518,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|Time",
+              "Y": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Zhu2010_Atazanavir+Raltegravir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zhu2010_Atazanavir+Raltegravir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Atazanavir_DDI\nZhu2010_Atazanavir+Raltegravir\n2019-08-01 18:04"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Perloff2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-InternalData",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 570.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Iwamoto 2008"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18513146"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1A"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Study I, Period 1 (single oral dose of 100 mg raltegravir)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Raltegravir"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 444.4163
+          },
+          "Values": [
+            0.2401831,
+            0.647776961,
+            1.122335,
+            1.557839,
+            1.39090192,
+            0.9895717,
+            0.493384182,
+            0.237152,
+            0.1153128,
+            0.07160728,
+            0.0357729122,
+            0.01003018,
+            0.002115189
+          ],
+          "Dimension": "Concentration (molar)",
+          "Unit": "µmol/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          16.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 571.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Iwamoto 2008"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18513146"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1A"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Raltegravir"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 144.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 444.4163
+          },
+          "Values": [
+            0.362950981,
+            0.7314823,
+            1.083281,
+            2.087982,
+            2.077286,
+            1.96613407,
+            1.319286,
+            0.6891609,
+            0.2659912,
+            0.13857159,
+            0.0658429042,
+            0.0168765,
+            0.004828043,
+            0.001431739
+          ],
+          "Dimension": "Concentration (molar)",
+          "Unit": "µmol/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          144.5,
+          145.0,
+          145.5,
+          146.0,
+          147.0,
+          148.0,
+          149.0,
+          150.0,
+          152.0,
+          154.0,
+          156.0,
+          160.0,
+          168.0,
+          176.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 572.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Neely 2010"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/20823282"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1A"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Study arm A (Raltegravir 400mg twice daily)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 20.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Raltegravir"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "400 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "0-12-24-36-48-60-72-84-96-108-120-132-144-156-168"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Semifasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 444.4163
+          },
+          "Values": [
+            0.2638029,
+            0.6762476,
+            0.6372081,
+            0.2824502,
+            0.1060531,
+            0.04640403
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          168.0,
+          169.0,
+          170.0,
+          172.0,
+          176.0,
+          180.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 573.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Neely 2010"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/20823282"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1A"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 19.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Raltegravir"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "400 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "0-24-48-72-96-120-144-168"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Semifasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 444.4163
+          },
+          "Values": [
+            0.0230577681,
+            0.962815,
+            0.7970017,
+            0.38811177,
+            0.1250545,
+            0.0684307143,
+            0.01734161
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          168.0,
+          169.0,
+          170.0,
+          172.0,
+          176.0,
+          180.0,
+          192.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 574.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Krishna 2016"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/27696440"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Period 1, Day 1 (single oral dose of 1200 mg raltegravir)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 14.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Raltegravir"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1200 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 444.4163
+              },
+              "Values": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                8.094822,
+                4.690146,
+                2.423786,
+                0.581250668,
+                0.1012588,
+                0.08187773,
+                0.05697107,
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (molar)",
+              "Unit": "µmol/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 444.4163
+          },
+          "Values": [
+            4.43851137,
+            6.503355,
+            9.900689,
+            12.2141,
+            12.44584,
+            7.286552,
+            2.695958,
+            0.7633453,
+            0.2119133,
+            0.136372492,
+            0.1001907,
+            0.04542207,
+            0.0296052
+          ],
+          "Dimension": "Concentration (molar)",
+          "Unit": "µmol/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          16.0,
+          24.0,
+          48.0,
+          72.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 575.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Krishna 2016"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/27696440"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 12.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Raltegravir"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1200 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 144.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 444.4163
+              },
+              "Values": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                8.1559,
+                7.295817,
+                6.463667,
+                2.035858,
+                0.234727487,
+                0.103879996,
+                0.0714698359,
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (molar)",
+              "Unit": "µmol/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 444.4163
+          },
+          "Values": [
+            4.272381,
+            7.434369,
+            11.3172693,
+            12.93519,
+            14.7808,
+            14.7766905,
+            8.648465,
+            2.79923,
+            0.4912354,
+            0.237343,
+            0.1360264,
+            0.05498442,
+            0.0209889114
+          ],
+          "Dimension": "Concentration (molar)",
+          "Unit": "µmol/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          144.5,
+          145.0,
+          145.5,
+          146.0,
+          147.0,
+          148.0,
+          150.0,
+          152.0,
+          156.0,
+          160.0,
+          168.0,
+          192.0,
+          216.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Zhu 2010 - Atazanvir 300 mg twice daily plus raltegravir 400 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=19)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 577.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Zhu 2010"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21149917"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1A"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Atazanvir 300 mg twice daily plus raltegravir 400 mg twice daily"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 19.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atazanavir"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "300 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "288-300-312-324-336-348-360-372-384-396-408-420-432-444-456-468-480-492-504-516-528-540-552-564-576-588-600-612"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Reyataz® (Bristol Myers Squibb)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Zhu 2010 - Atazanvir 300 mg twice daily plus raltegravir 400 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 704.8555
+              },
+              "Values": [
+                0.46778062,
+                1.60381794,
+                1.620526,
+                1.0358001,
+                0.8353223,
+                "NaN",
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Zhu 2010 - Atazanvir 300 mg twice daily plus raltegravir 400 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 704.8555
+          },
+          "Values": [
+            1.286396,
+            2.50596714,
+            4.34367466,
+            4.042959,
+            3.45823383,
+            2.038186,
+            1.536993,
+            0.9021479
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Zhu 2010 - Atazanvir 300 mg twice daily plus raltegravir 400 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=19)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          600.0,
+          601.0,
+          602.0,
+          603.0,
+          604.0,
+          606.0,
+          608.0,
+          612.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 578.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Zhu 2010"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21149917"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1B"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Raltegravir 400 mg twice daily"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 22.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Raltegravir"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "400 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "0-12-24-36-48-60-72-84-96"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Isentress® (Merck & Co.)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 444.4163
+              },
+              "Values": [
+                "NaN",
+                0.3732364,
+                "NaN",
+                "NaN",
+                "NaN",
+                2.272512,
+                0.613744,
+                0.1576103
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 444.4163
+          },
+          "Values": [
+            165.8905,
+            365.6406,
+            424.3954,
+            342.1414,
+            293.0627,
+            1057.492,
+            353.8842,
+            116.1274
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          96.0,
+          97.0,
+          98.0,
+          99.0,
+          100.0,
+          102.0,
+          104.0,
+          108.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 579.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Zhu 2010"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21149917"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1B"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 19.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Raltegravir"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "400 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "288-300-312-324-336-348-360-372-384-396-408-420-432-444-456-468-480-492-504-516-528-540-552-564-576-588-600-612"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Isentress® (Merck & Co.)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 444.4163
+              },
+              "Values": [
+                0.2736967,
+                0.248828918,
+                0.89570725,
+                0.199038416,
+                0.323459685,
+                2.015417,
+                1.25238311,
+                0.2653892
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 444.4163
+          },
+          "Values": [
+            0.27371037,
+            0.3407591,
+            0.6732106,
+            0.4914442,
+            0.475540817,
+            1.24825,
+            0.7602822,
+            0.1990795
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          600.0,
+          601.0,
+          602.0,
+          603.0,
+          604.0,
+          606.0,
+          608.0,
+          612.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}
