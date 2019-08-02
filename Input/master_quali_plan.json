@@ -1,0 +1,531 @@
+{
+  "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v1.0/OSP_Qualification_Plan_Schema.json",
+  "Projects": [
+    {
+      "Id": "Raltegravir",
+      "Path": "https://raw.githubusercontent.com/Incei/Raltegravir-Model/master/Raltegravir.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Raltegravir",
+          "Project": "Raltegravir"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+          "Project": "Raltegravir"
+        }
+      ]
+    },
+    {
+      "Id": "Atazanavir",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Atazanavir-Model/master/Atazanavir.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Atazanavir",
+          "Project": "Atazanavir"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Reyataz capsule",
+          "Project": "Atazanavir"
+        }
+      ]
+    },
+    {
+      "Id": "Atazanavir-Raltegravir-DDI",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Atazanavir-Raltegravir-DDI/master/Atazanavir-Raltegravir-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "HispanicMale",
+          "Project": "Atazanavir-Raltegravir-DDI"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Krishna2016",
+          "Project": "Atazanavir-Raltegravir-DDI"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Neely2010",
+          "Project": "Atazanavir-Raltegravir-DDI"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Zhu2010",
+          "Project": "Atazanavir-Raltegravir-DDI"
+        }
+      ]
+    }
+  ],
+  "ObservedDataSets": [
+    {
+      "Id": "DDI Ratios",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/master/DDI.csv",
+      "Type": "DDIRatio"
+    }
+  ],
+  "Plots": {
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "AxesSettings": {
+      "ComparisonTimeProfile": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "ng/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsPredictedVsObserved": [
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsResidualsVsObserved": [
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ]
+    },
+    "ComparisonTimeProfilePlots": [
+      {
+        "SectionId": 26,
+        "Title": "Iwamoto 2008",
+        "SimulationDuration": 176,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Iwamoto2008_Raltegravir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without atazanavir)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Iwamoto2008_Raltegravir+Atazanavir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) -",
+            "StartTime": 144,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with atazanavir)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 26,
+        "Title": "Krishna 2016",
+        "SimulationDuration": 216,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Krishna2016_Raltegravir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without atazanavir)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Krishna2016_Raltegravir+Atazanavir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)",
+            "StartTime": 144,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with atazanavir)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 26,
+        "Title": "Neely 2010",
+        "SimulationDuration": 192,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Neely2010_Raltegravir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)",
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without atazanavir)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Neely2010_Raltegravir+Atazanavir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)",
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with atazanavir)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 26,
+        "Title": "Zhu 2010",
+        "SimulationDuration": 612,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Zhu2010_Raltegravir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)",
+            "StartTime": 96,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without atazanavir)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Zhu2010_Raltegravir+Atazanavir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)",
+            "StartTime": 600,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with atazanavir)",
+            "Symbol": "Square"
+          }
+        ]
+      }
+    ],
+    "DDIRatioPlots": [
+      {
+        "SectionId": 5,
+        "Title": "UGT1A1 DDI",
+        "PKParameter": "AUC|CMAX",
+        "PlotType": "predictedVsObserved|residualsVsObserved",
+        "Groups": [
+          {
+            "Caption": "Atazanavir + Raltegravir",
+            "Color": "#FF0000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 571,
+                "SimulationControl": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Iwamoto2008_Raltegravir",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Iwamoto2008_Raltegravir+Atazanavir",
+                  "StartTime": 144,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 575,
+                "SimulationControl": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Krishna2016_Raltegravir",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Krishna2016_Raltegravir+Atazanavir",
+                  "StartTime": 144,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 573,
+                "SimulationControl": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Neely2010_Raltegravir",
+                  "StartTime": 168,
+                  "EndTime": 180,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Neely2010_Raltegravir+Atazanavir",
+                  "StartTime": 168,
+                  "EndTime": 192,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 579,
+                "SimulationControl": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Zhu2010_Raltegravir",
+                  "StartTime": 96,
+                  "EndTime": 108,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Zhu2010_Raltegravir+Atazanavir",
+                  "StartTime": 600,
+                  "EndTime": 612,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Inputs": [
+    {
+      "Project": "Raltegravir",
+      "Name": "Raltegravir",
+      "Type": "Compound",
+      "SectionId": 11
+    },
+    {
+      "Project": "Atazanavir",
+      "Name": "Atazanavir",
+      "Type": "Compound",
+      "SectionId": 16
+    },
+    {
+      "Project": "Raltegravir",
+      "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+      "Type": "Formulation",
+      "SectionId": 16
+    },
+    {
+      "Project": "Atazanavir",
+      "Name": "Reyataz capsule",
+      "Type": "Formulation",
+      "SectionId": 16
+    }
+  ],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "Introduction",
+      "Content": "Content/Empty.md",
+      "Sections": [
+        {
+          "Id": 2,
+          "Title": "Objective",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-DDI-CYP3A4/master/input/text-modules/Qualification_DDI_CYP3A4_objective.md"
+        },
+        {
+          "Id": 3,
+          "Title": "CYP3A4 DDI Network",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-DDI-CYP3A4/master/input/text-modules/Qualification_DDI_CYP3A4_network_description.md"
+        },
+        {
+          "Id": 4,
+          "Title": "Qualification Workflow",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Qualification_Workflow.md"
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Title": "Qualification of Use Case CYP3A4-mediated DDI",
+      "Content": "Content/Empty.md"
+    },
+    {
+      "Id": 6,
+      "Title": "Appendix",
+      "Content": "Content/Empty.md",
+      "Sections": [
+        {
+          "Id": 7,
+          "Title": "Open Systems Pharmacology Suite (OSPS) Introduction",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/OSPS_Introduction.md"
+        },
+        {
+          "Id": 8,
+          "Title": "Mathematical Implementation of drug-drug interactions",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Mathematical_Implementation_of_DDI.md"
+        },
+        {
+          "Id": 9,
+          "Title": "Evaluation of victim and perpetrator models",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-DDI-CYP3A4/master/input/text-modules/Intro_evaluation_victim_and_perpetrator_models.md",
+          "Sections": [
+            {
+              "Id": 10,
+              "Title": "Midazolam Model",
+              "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/master/text-modules/Intro_Midazolam-model.md",
+              "Sections": [
+                {
+                  "Id": 11,
+                  "Title": "Input parameters",
+                  "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Input_parameters.md"
+                },
+                {
+                  "Id": 12,
+                  "Title": "Model evaluation",
+                  "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Model_evaluation.md",
+                  "Sections": [
+                    {
+                      "Id": 13,
+                      "Title": "Concentration-time profiles",
+                      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Model_evaluation_CTprofiles.md"
+                    },
+                    {
+                      "Id": 14,
+                      "Title": "Overall goodness of fit",
+                      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Model_evaluation_GOF.md"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Id": 15,
+              "Title": "Itraconazole Model",
+              "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/text-modules/Intro_Itraconazole-model.md",
+              "Sections": [
+                {
+                  "Id": 16,
+                  "Title": "Input parameters",
+                  "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Input_parameters.md"
+                },
+                {
+                  "Id": 17,
+                  "Title": "Model evaluation",
+                  "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Model_evaluation.md",
+                  "Sections": [
+                    {
+                      "Id": 18,
+                      "Title": "Concentration-time profiles",
+                      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Model_evaluation_CTprofiles.md"
+                    },
+                    {
+                      "Id": 19,
+                      "Title": "Overall goodness of fit",
+                      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Model_evaluation_GOF.md"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Id": 20,
+              "Title": "Rifampicin Model",
+              "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/master/text-modules/Intro_Rifampicin-model.md",
+              "Sections": [
+                {
+                  "Id": 21,
+                  "Title": "Input parameters",
+                  "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Input_parameters.md"
+                },
+                {
+                  "Id": 22,
+                  "Title": "Model evaluation",
+                  "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Model_evaluation.md",
+                  "Sections": [
+                    {
+                      "Id": 23,
+                      "Title": "Concentration-time profiles",
+                      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Model_evaluation_CTprofiles.md"
+                    },
+                    {
+                      "Id": 24,
+                      "Title": "Overall goodness of fit",
+                      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Intro_Model_evaluation_GOF.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": 25,
+          "Title": "Evaluation of DDI network (coupled perpetrator / victim simulations)",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-DDI-CYP3A4/master/input/text-modules/Intro_evaluation_DDI_network.md",
+          "Sections": [
+            {
+              "Id": 26,
+              "Title": "Itraconazole-midazolam DDI",
+              "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/master/text-modules/Intro_Itraconazole-midazolam_DDI.md"
+            },
+            {
+              "Id": 27,
+              "Title": "Rifampicin-midazolam DDI",
+              "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/master/text-modules/Intro_Rifampicin-midazolam_DDI.md"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
