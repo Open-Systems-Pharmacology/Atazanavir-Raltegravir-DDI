@@ -2463,8 +2463,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 164.8865,
-              "Max": 185.2919,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -2476,8 +2474,6 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.08049287,
-              "Max": 17.06803,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -3396,7 +3392,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final_DDI\nIwamoto2008_Raltegravir+Atazanavir\n2019-08-01 17:31"
+          "OriginText": "Atazanavir-Raltegravir-DDI\nIwamoto2008_Raltegravir+Atazanavir\n2019-08-02 16:26"
         }
       ],
       "Interactions": [
@@ -4293,7 +4289,7 @@
       ]
     },
     {
-      "Name": "Zhu2010_Atazanavir+Raltegravir",
+      "Name": "Zhu2010_Raltegravir+Atazanavir",
       "Model": "4Comp",
       "ObservedData": [
         "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)"
@@ -5068,9 +5064,9 @@
               }
             },
             {
-              "Name": "Zhu2010_Atazanavir+Raltegravir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Zhu2010_Raltegravir+Atazanavir-Raltegravir-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Zhu2010_Atazanavir+Raltegravir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+              "Y": "Zhu2010_Raltegravir+Atazanavir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
