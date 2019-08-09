@@ -4,23 +4,22 @@
     {
       "Id": "Raltegravir",
       "Path": "https://raw.githubusercontent.com/Incei/Raltegravir-Model/master/Raltegravir.json",
+      "BuildingBlocks": []
+    },
+    {
+      "Id": "Atazanavir",
+      "Path": "https://raw.githubusercontent.com/Incei/Atazanavir-Model/master/Atazanavir.json",
+      "BuildingBlocks": []
+    },
+    {
+      "Id": "Atazanavir-Raltegravir-DDI",
+      "Path": "https://raw.githubusercontent.com/Incei/Atazanavir-Raltegravir-DDI/master/Atazanavir-Raltegravir-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
           "Name": "Raltegravir",
           "Project": "Raltegravir"
         },
-        {
-          "Type": "Formulation",
-          "Name": "filmcoated tablet (original Merck formulation)",
-          "Project": "Raltegravir"
-        }
-      ]
-    },
-    {
-      "Id": "Atazanavir",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Atazanavir-Model/master/Atazanavir.json",
-      "BuildingBlocks": [
         {
           "Type": "Compound",
           "Name": "Atazanavir",
@@ -30,32 +29,11 @@
           "Type": "Formulation",
           "Name": "Reyataz capsule",
           "Project": "Atazanavir"
-        }
-      ]
-    },
-    {
-      "Id": "Atazanavir-Raltegravir-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Atazanavir-Raltegravir-DDI/master/Atazanavir-Raltegravir-DDI.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "HispanicMale",
-          "Project": "Atazanavir-Raltegravir-DDI"
         },
         {
-          "Type": "Individual",
-          "Name": "Krishna2016",
-          "Project": "Atazanavir-Raltegravir-DDI"
-        },
-        {
-          "Type": "Individual",
-          "Name": "Neely2010",
-          "Project": "Atazanavir-Raltegravir-DDI"
-        },
-        {
-          "Type": "Individual",
-          "Name": "Zhu2010",
-          "Project": "Atazanavir-Raltegravir-DDI"
+          "Type": "Formulation",
+          "Name": "filmcoated tablet (original Merck formulation)",
+          "Project": "Raltegravir"
         }
       ]
     }
