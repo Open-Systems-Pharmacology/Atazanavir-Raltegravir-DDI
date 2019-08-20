@@ -1652,7 +1652,7 @@
       ]
     },
     {
-      "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+      "Name": "filmcoated tablet (original Merck formulation)",
       "FormulationType": "Formulation_Tablet_Weibull",
       "Parameters": [
         {
@@ -2329,77 +2329,77 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|400mg_BID_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400mg_BID_8days|filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -2446,7 +2446,7 @@
             "Name": "400mg_BID_8days",
             "Formulations": [
               {
-                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Name": "filmcoated tablet (original Merck formulation)",
                 "Key": "Formulation"
               }
             ]
@@ -2664,42 +2664,42 @@
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_QD_8days|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_QD_8days|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_QD_8days|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_QD_8days|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_QD_8days|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_QD_8days|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_QD_8days|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_QD_8days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_QD_8days|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -2747,7 +2747,7 @@
             "Name": "Raltegravir_400mg_QD_8days",
             "Formulations": [
               {
-                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Name": "filmcoated tablet (original Merck formulation)",
                 "Key": "Formulation"
               }
             ]
@@ -2904,7 +2904,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Raltegravir_100mg|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_100mg|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -2951,7 +2951,7 @@
             "Name": "Raltegravir_100mg",
             "Formulations": [
               {
-                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Name": "filmcoated tablet (original Merck formulation)",
                 "Key": "Formulation"
               }
             ]
@@ -3177,7 +3177,7 @@
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_100mg_at144h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_100mg_at144h|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -3225,7 +3225,7 @@
             "Name": "Raltegravir_100mg_at144h",
             "Formulations": [
               {
-                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Name": "filmcoated tablet (original Merck formulation)",
                 "Key": "Formulation"
               }
             ]
@@ -3460,7 +3460,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Raltegravir_1200mg|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_1200mg|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -3507,7 +3507,7 @@
             "Name": "Raltegravir_1200mg",
             "Formulations": [
               {
-                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Name": "filmcoated tablet (original Merck formulation)",
                 "Key": "Formulation"
               }
             ]
@@ -3711,7 +3711,7 @@
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_1200mg_at144h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_1200mg_at144h|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -3759,7 +3759,7 @@
             "Name": "Raltegravir_1200mg_at144h",
             "Formulations": [
               {
-                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Name": "filmcoated tablet (original Merck formulation)",
                 "Key": "Formulation"
               }
             ]
@@ -4044,47 +4044,47 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_5days|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_5days|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_5days|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_5days|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_5days|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_5days|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_5days|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_5days|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_5days|Raltegravir - filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_5days|filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4131,7 +4131,7 @@
             "Name": "Raltegravir_400mg_BID_5days",
             "Formulations": [
               {
-                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Name": "filmcoated tablet (original Merck formulation)",
                 "Key": "Formulation"
               }
             ]
@@ -4517,142 +4517,142 @@
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|Raltegravir - filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4731,7 +4731,7 @@
             "Name": "Raltegravir_400mg_BID_14days_at288h",
             "Formulations": [
               {
-                "Name": "Raltegravir - filmcoated tablet (original Merck formulation)",
+                "Name": "filmcoated tablet (original Merck formulation)",
                 "Key": "Formulation"
               }
             ]
@@ -6239,17 +6239,17 @@
             "MolWeight": 444.4163
           },
           "Values": [
-            165.8905,
-            365.6406,
-            424.3954,
-            342.1414,
-            293.0627,
-            1057.492,
-            353.8842,
-            116.1274
+            0.1658905,
+            0.3656406,
+            0.424395382,
+            0.3421414,
+            0.293062717,
+            1.057492,
+            0.3538842,
+            0.1161274
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
