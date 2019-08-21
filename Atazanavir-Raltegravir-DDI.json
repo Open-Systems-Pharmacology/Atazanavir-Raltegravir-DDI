@@ -2216,7 +2216,7 @@
       "Name": "Neely2010_Raltegravir",
       "Model": "4Comp",
       "ObservedData": [
-        "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)"
+        "Neely 2010 - Study arm A (Raltegravir 400mg BID) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -2482,9 +2482,9 @@
           ],
           "Curves": [
             {
-              "Name": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)-Raltegravir-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|Time",
-              "Y": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean",
+              "Name": "Neely 2010 - Study arm A (Raltegravir 400mg BID) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)-Raltegravir-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Neely 2010 - Study arm A (Raltegravir 400mg BID) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|Time",
+              "Y": "Neely 2010 - Study arm A (Raltegravir 400mg BID) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 4,
@@ -2511,7 +2511,7 @@
       "Name": "Neely2010_Raltegravir+Atazanavir",
       "Model": "4Comp",
       "ObservedData": [
-        "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)"
+        "Neely 2010 - Study arm B (Raltegravir 400mg OD + Atazanavir 400 mg OD) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -2827,9 +2827,9 @@
               }
             },
             {
-              "Name": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)-Raltegravir-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|Time",
-              "Y": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean",
+              "Name": "Neely 2010 - Study arm B (Raltegravir 400mg OD + Atazanavir 400 mg OD) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)-Raltegravir-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Neely 2010 - Study arm B (Raltegravir 400mg OD + Atazanavir 400 mg OD) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|Time",
+              "Y": "Neely 2010 - Study arm B (Raltegravir 400mg OD + Atazanavir 400 mg OD) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2,
@@ -2859,7 +2859,7 @@
       "Name": "Iwamoto2008_Raltegravir",
       "Model": "4Comp",
       "ObservedData": [
-        "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)"
+        "Iwamoto 2008 - Study I, Period 1 (control) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -3005,9 +3005,9 @@
               }
             },
             {
-              "Name": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
-              "Y": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "Name": "Iwamoto 2008 - Study I, Period 1 (control) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Iwamoto 2008 - Study I, Period 1 (control) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Iwamoto 2008 - Study I, Period 1 (control) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2,
@@ -3025,7 +3025,7 @@
       "Name": "Iwamoto2008_Raltegravir+Atazanavir",
       "Model": "4Comp",
       "ObservedData": [
-        "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)"
+        "Iwamoto 2008 - Study I, Period 2 (ATV treatment) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -3380,9 +3380,9 @@
               }
             },
             {
-              "Name": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
-              "Y": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "Name": "Iwamoto 2008 - Study I, Period 2 (ATV treatment) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Iwamoto 2008 - Study I, Period 2 (ATV treatment) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Iwamoto 2008 - Study I, Period 2 (ATV treatment) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 6,
@@ -3412,7 +3412,7 @@
       "Name": "Krishna2016_Raltegravir",
       "Model": "4Comp",
       "ObservedData": [
-        "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)"
+        "Krishna 2016 - Period 1, Day 1 (1200 mg raltegravir SD) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -3561,9 +3561,9 @@
               }
             },
             {
-              "Name": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|Time",
-              "Y": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "Name": "Krishna 2016 - Period 1, Day 1 (1200 mg raltegravir SD) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Krishna 2016 - Period 1, Day 1 (1200 mg raltegravir SD) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Krishna 2016 - Period 1, Day 1 (1200 mg raltegravir SD) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2,
@@ -3581,7 +3581,7 @@
       "Name": "Krishna2016_Raltegravir+Atazanavir",
       "Model": "4Comp",
       "ObservedData": [
-        "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)"
+        "Krishna 2016 - Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -3927,9 +3927,9 @@
               }
             },
             {
-              "Name": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
+              "Name": "Krishna 2016 - Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)-Raltegravir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Krishna 2016 - Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Krishna 2016 - Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2,
@@ -5093,7 +5093,7 @@
   ],
   "ObservedData": [
     {
-      "Name": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)",
+      "Name": "Iwamoto 2008 - Study I, Period 1 (control) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -5117,7 +5117,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "Study I, Period 1 (single oral dose of 100 mg raltegravir)"
+          "Value": "Study I, Period 1 (control)"
         },
         {
           "Name": "Data type",
@@ -5173,7 +5173,7 @@
           "Name": "Avg",
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+            "Path": "Iwamoto 2008 - Study I, Period 1 (control) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5204,7 +5204,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Iwamoto 2008 - Study I, Period 1 (single oral dose of 100 mg raltegravir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
+          "Path": "Iwamoto 2008 - Study I, Period 1 (control) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -5232,7 +5232,7 @@
       }
     },
     {
-      "Name": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)",
+      "Name": "Iwamoto 2008 - Study I, Period 2 (ATV treatment) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -5256,7 +5256,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir)"
+          "Value": "Study I, Period 2 (ATV treatment)"
         },
         {
           "Name": "Data type",
@@ -5312,7 +5312,7 @@
           "Name": "Avg",
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+            "Path": "Iwamoto 2008 - Study I, Period 2 (ATV treatment) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5344,7 +5344,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Iwamoto 2008 - Study I, Period 2 (single oral dose of 100 mg raltegravir with multiple doses of 400 mg atazanavir) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
+          "Path": "Iwamoto 2008 - Study I, Period 2 (ATV treatment) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -5373,7 +5373,7 @@
       }
     },
     {
-      "Name": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)",
+      "Name": "Neely 2010 - Study arm A (Raltegravir 400mg BID) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -5397,7 +5397,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "Study arm A (Raltegravir 400mg twice daily)"
+          "Value": "Study arm A (Raltegravir 400mg BID)"
         },
         {
           "Name": "Data type",
@@ -5453,7 +5453,7 @@
           "Name": "Avg",
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean"
+            "Path": "Neely 2010 - Study arm A (Raltegravir 400mg BID) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5477,7 +5477,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Neely 2010 - Study arm A (Raltegravir 400mg twice daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|Time",
+          "Path": "Neely 2010 - Study arm A (Raltegravir 400mg BID) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -5498,7 +5498,7 @@
       }
     },
     {
-      "Name": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)",
+      "Name": "Neely 2010 - Study arm B (Raltegravir 400mg OD + Atazanavir 400 mg OD) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -5522,7 +5522,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily)"
+          "Value": "Study arm B (Raltegravir 400mg OD + Atazanavir 400 mg OD)"
         },
         {
           "Name": "Data type",
@@ -5578,7 +5578,7 @@
           "Name": "Avg",
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean"
+            "Path": "Neely 2010 - Study arm B (Raltegravir 400mg OD + Atazanavir 400 mg OD) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|GeometricMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5603,7 +5603,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Neely 2010 - Study arm B (Raltegravir 400mg + Atazanavir 400 mg once daily) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|Time",
+          "Path": "Neely 2010 - Study arm B (Raltegravir 400mg OD + Atazanavir 400 mg OD) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -5625,7 +5625,7 @@
       }
     },
     {
-      "Name": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)",
+      "Name": "Krishna 2016 - Period 1, Day 1 (1200 mg raltegravir SD) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -5649,7 +5649,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "Period 1, Day 1 (single oral dose of 1200 mg raltegravir)"
+          "Value": "Period 1, Day 1 (1200 mg raltegravir SD)"
         },
         {
           "Name": "Data type",
@@ -5708,7 +5708,7 @@
               "Name": "Var",
               "QuantityInfo": {
                 "Name": "Var",
-                "Path": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticStdDev"
+                "Path": "Krishna 2016 - Period 1, Day 1 (1200 mg raltegravir SD) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5737,7 +5737,7 @@
           ],
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+            "Path": "Krishna 2016 - Period 1, Day 1 (1200 mg raltegravir SD) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5768,7 +5768,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Krishna 2016 - Period 1, Day 1 (single oral dose of 1200 mg raltegravir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|Time",
+          "Path": "Krishna 2016 - Period 1, Day 1 (1200 mg raltegravir SD) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -5796,7 +5796,7 @@
       }
     },
     {
-      "Name": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)",
+      "Name": "Krishna 2016 - Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -5820,7 +5820,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir)"
+          "Value": "Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV)"
         },
         {
           "Name": "Data type",
@@ -5879,7 +5879,7 @@
               "Name": "Var",
               "QuantityInfo": {
                 "Name": "Var",
-                "Path": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticStdDev"
+                "Path": "Krishna 2016 - Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5908,7 +5908,7 @@
           ],
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
+            "Path": "Krishna 2016 - Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5939,7 +5939,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Krishna 2016 - Period 2, Day 7 (single oral dose of 1200 mg raltegravir with multiple oral QD doses of 400 mg atazanavir) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|Time",
+          "Path": "Krishna 2016 - Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
