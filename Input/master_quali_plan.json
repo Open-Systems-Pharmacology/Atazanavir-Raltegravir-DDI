@@ -3,17 +3,17 @@
   "Projects": [
     {
       "Id": "Raltegravir",
-      "Path": "https://raw.githubusercontent.com/Incei/Raltegravir-Model/master/Raltegravir.json",
+      "Path": "C:/Users/gemuh.AD-BAYER-CNB/Desktop/Markdown/Atazanavir-Raltegravir-DDI/Input/Raltegravir.json",
       "BuildingBlocks": []
     },
     {
       "Id": "Atazanavir",
-      "Path": "https://raw.githubusercontent.com/Incei/Atazanavir-Model/master/Atazanavir.json",
+      "Path": "C:/Users/gemuh.AD-BAYER-CNB/Desktop/Markdown/Atazanavir-Raltegravir-DDI/Input/Atazanavir.json",
       "BuildingBlocks": []
     },
     {
       "Id": "Atazanavir-Raltegravir-DDI",
-      "Path": "https://raw.githubusercontent.com/Incei/Atazanavir-Raltegravir-DDI/master/Atazanavir-Raltegravir-DDI.json",
+      "Path": "C:/Users/gemuh.AD-BAYER-CNB/Desktop/Markdown/Atazanavir-Raltegravir-DDI/Input/Atazanavir-Raltegravir-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -41,7 +41,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Database-for-observed-data/master/DDI.csv",
+      "Path": "C:/Users/gemuh.AD-BAYER-CNB/Desktop/Markdown/Atazanavir-Raltegravir-DDI/Input/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
