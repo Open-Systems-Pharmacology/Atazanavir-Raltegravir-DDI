@@ -1,4 +1,4 @@
-The atazanavir / raltegravir interaction was evaluated using 4 clinical DDI study.
+The atazanavir / raltegravir interaction was evaluated using 4 clinical DDI studies.
 
 For further references please refer to the respective model repository [[1](#reference)] and the database of observed data [[2](#reference)].
 
