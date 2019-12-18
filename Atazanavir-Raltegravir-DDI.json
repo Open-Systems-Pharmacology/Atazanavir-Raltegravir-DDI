@@ -1908,7 +1908,7 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 28.0,
+              "Value": 27.0,
               "ValueOrigin": {
                 "Source": "Unknown"
               }
@@ -1967,7 +1967,7 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 28.0,
+              "Value": 27.0,
               "ValueOrigin": {
                 "Source": "Unknown"
               }
@@ -4133,7 +4133,8 @@
       "Name": "Zhu2010_Raltegravir+Atazanavir",
       "Model": "4Comp",
       "ObservedData": [
-        "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)"
+        "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)",
+        "Zhu 2010 - Atazanvir 300 mg twice daily plus raltegravir 400 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=19)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -4318,11 +4319,6 @@
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_28|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Applications|300mg_BID_14days_at288h|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
@@ -4454,11 +4450,6 @@
         },
         {
           "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Raltegravir_400mg_BID_14days_at288h|filmcoated tablet (original Merck formulation)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -4863,8 +4854,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 594.8665,
-              "Max": 621.0748,
+              "Min": 599.8331,
+              "Max": 612.0236,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -4876,8 +4867,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 2.011306E-05,
-              "Max": 10.43518,
+              "Min": 3.29199029E-05,
+              "Max": 21.0439186,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -4890,7 +4881,7 @@
               "X": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|Time",
               "Y": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean",
               "CurveOptions": {
-                "Color": "#0000FF",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4902,12 +4893,32 @@
               "Y": "Zhu2010_Raltegravir+Atazanavir|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 1
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Zhu 2010 - Atazanvir 300 mg twice daily plus raltegravir 400 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=19)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2010 - Atazanvir 300 mg twice daily plus raltegravir 400 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=19)|Time",
+              "Y": "Zhu 2010 - Atazanvir 300 mg twice daily plus raltegravir 400 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Zhu2010_Raltegravir+Atazanavir-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zhu2010_Raltegravir+Atazanavir|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6
               }
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_DDI\nZhu2010_Atazanavir+Raltegravir\n2019-08-01 18:04"
+          "OriginText": "Atazanavir-Raltegravir-DDI\nZhu2010_Raltegravir+Atazanavir\n2019-12-18 14:38"
         }
       ],
       "Interactions": [
