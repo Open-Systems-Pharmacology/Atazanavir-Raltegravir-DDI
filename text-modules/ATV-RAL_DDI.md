@@ -1,8 +1,5 @@
-The atazanavir / raltegravir interaction was evaluated using 4 clinical DDI studies.
+The atazanavir / raltegravir interaction was evaluated using four clinical DDI studies ([Iwamoto 2008, Krishna 2008, Neely 2010, Zhu 2010](# 5 References)).
 
-For further references please refer to the respective model repository [[1](#reference)] and the database of observed data [[2](#reference)].
-
-[1] [https://github.com/Open-Systems-Pharmacology/Atazanavir-Raltegravir-DDI](https://github.com/Open-Systems-Pharmacology/Atazanavir-Raltegravir-DDI)
-
-[2] [https://github.com/Open-Systems-Pharmacology/Database-for-observed-data](https://github.com/Open-Systems-Pharmacology/Database-for-observed-data)
+The respective model repository can be found in:
+https://github.com/Open-Systems-Pharmacology/Atazanavir-Raltegravir-DDI
 
