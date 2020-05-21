@@ -80,7 +80,17 @@
           ],
           "Ontogeny": {
             "Name": "CYP3A4"
-          }
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
         },
         {
           "Name": "UGT1A1",
@@ -343,7 +353,27 @@
           ],
           "Ontogeny": {
             "Name": "CYP3A4"
-          }
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
         },
         {
           "Name": "UGT1A1",
@@ -606,7 +636,27 @@
           ],
           "Ontogeny": {
             "Name": "CYP3A4"
-          }
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
         },
         {
           "Name": "UGT1A1",
@@ -873,7 +923,17 @@
           ],
           "Ontogeny": {
             "Name": "CYP3A4"
-          }
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
         },
         {
           "Name": "UGT1A1",
